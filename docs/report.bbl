@@ -1,0 +1,43 @@
+\begin{thebibliography}{1}
+
+\bibitem{FastAI}
+FastAI-team, ``https://github.com/fastai/fastai,'' 2018.
+
+\bibitem{ULMFiT}
+J.~Howard and S.~Ruder, ``Universal language model fine-tuning for text
+  classification,'' 2018.
+
+\bibitem{calibration}
+M.~Kull, T.~S. Filho, and P.~Flach, ``{Beta calibration: a well-founded and
+  easily implemented improvement on logistic calibration for binary
+  classifiers},'' in {\em Proceedings of the 20th International Conference on
+  Artificial Intelligence and Statistics} (A.~Singh and J.~Zhu, eds.), vol.~54
+  of {\em Proceedings of Machine Learning Research}, (Fort Lauderdale, FL,
+  USA), pp.~623--631, PMLR, 20--22 Apr 2017.
+
+\bibitem{CRF}
+J.~D. Lafferty, A.~McCallum, and F.~C.~N. Pereira, ``Conditional random fields:
+  Probabilistic models for segmenting and labeling sequence data,'' in {\em
+  Proceedings of the Eighteenth International Conference on Machine Learning},
+  ICML '01, (San Francisco, CA, USA), pp.~282--289, Morgan Kaufmann Publishers
+  Inc., 2001.
+
+\bibitem{BiLSTM_CRF}
+Z.~Huang, W.~Xu, and K.~Yu, ``{Bidirectional LSTM-CRF Models for Sequence
+  Tagging},'' 2015.
+
+\bibitem{Transformer}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez,
+  L.~Kaiser, and I.~Polosukhin, ``Attention is all you need,'' 2017.
+
+\bibitem{BERT}
+J.~Devlin, M.-W. Chang, K.~Lee, and K.~Toutanova, ``{BERT: Pre-training of Deep
+  Bidirectional Transformers for Language Understanding},'' 2018.
+
+\bibitem{PRG}
+P.~Flach and M.~Kull, ``Precision-recall-gain curves: Pr analysis done right,''
+  in {\em Advances in Neural Information Processing Systems 28} (C.~Cortes,
+  N.~D. Lawrence, D.~D. Lee, M.~Sugiyama, and R.~Garnett, eds.), pp.~838--846,
+  Curran Associates, Inc., 2015.
+
+\end{thebibliography}
