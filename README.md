@@ -16,24 +16,34 @@ The system implemented detects titles in documents, given some features for each
 
 ## Installation
 
+
 The system required Python3 and conda installed. Step by step recommended installation:
 
 1. Create a new virtual environment using conda
     
     `conda create --name a_name python=3.7`
 
-2. Activate environment
+1. Activate environment
     
-    `conda activate a_name`
-    
-2. Install as (this might take a while)
+    `conda activate a_name` 
 
-    `python setup.py install`
+1. (From source) This is not really an installation, just allows to create 
+the environment (this might take a while)
+
+    `poetry install`
     
+1. (From whl, skip if done from source) Install as (this might take a while)
+
+    `pip install title_detector-0.1.0-py3-none-any.whl`
+    
+1. (Both cases) Install spacy language model
+
+    `python -m spacy download en_core_web_sm`
 
 ## Usage
 
-From the root project directory type:
+From the root project directory type (this is not required if 
+installed with the wheel as package):
 
     title_detector [command] [possible args]
 
@@ -43,6 +53,7 @@ Help can be retrieved by
 and
 
     title_detector [command] --help
+   
 
 
 ## Examples

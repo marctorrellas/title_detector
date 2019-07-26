@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "title-detector"
+version = "0.1.0"
+description = "A detector for titles in OCR outputs"
+authors = ["Marc Torrellas Socastro <marc.torsoc@gmail.com>"]
+url="https://marctorrellas.github.com"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+exclude = ["__pycache__/*", "tests/*"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+fastai = "^1.0"
+pandas = "^0.25.0"
+scikit-learn = "^0.21.2"
+tqdm = "^4.32"
+ipython = "^7.6"
+pytest = "^3.4"
+
+[tool.poetry.scripts]
+title_detector = 'title_detector:main.main'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
