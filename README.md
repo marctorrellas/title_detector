@@ -1,6 +1,3 @@
-Author: Marc Torrellas Socastro\
-2019, July
-
 ## Overview
 
 The system implemented detects titles in documents, given some features for each title:
@@ -13,6 +10,8 @@ The system implemented detects titles in documents, given some features for each
     - right
     - top
     - bottom
+    
+The master branch works with Poetry, while there's an old branch working with setuptools.
 
 ## Installation
 
@@ -76,3 +75,8 @@ so that the data can be found
 ## Testing
 
 TODO
+
+##
+
+Author: Marc Torrellas Socastro\
+2019, July
